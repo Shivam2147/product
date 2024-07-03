@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+</head>
+
+<body>
+    <main class="px-2">
+        <nav class="navbar">
+            <div class="container-fluid d-flex justify-content-between">
+                <button class="btn"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-arrow-left" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8" />
+                    </svg></button>
+                <div>Flash Sale</div>
+                <form class="d-flex" role="search bg">
+                    <button class="btn" type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                            fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                            <path
+                                d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z" />
+                        </svg></button>
+                </form>
+            </div>
+        </nav>
+        <div class="container-fluid">
+            <div class="container rounded-4" style="background-color: rgb(249, 199, 249);">
+                <div class="d-flex flex-row mb-3 justify-content-between ">
+                    <div class="p-2">
+                        <div class="d-flex flex-column mt-3">
+                            <div class="p-2">
+                                <h2>Flash Sale</h2>
+                            </div>
+                            <div class="p-2" style="color: rgb(227, 19, 227);">
+                                <h6>Sale up to 60% off</h6>
+                            </div>
+                            <div class="p-2">
+                                <div class="d-flex mb-3 bg-white rounded-5">
+                                    <div class="pb-2 px-2 pt-1"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                            height="16" fill="currentColor" class="bi bi-calendar-minus"
+                                            viewBox="0 0 16 16">
+                                            <path d="M5.5 9.5A.5.5 0 0 1 6 9h4a.5.5 0 0 1 0 1H6a.5.5 0 0 1-.5-.5" />
+                                            <path
+                                                d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5M1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4z" />
+                                        </svg></div>
+                                    <div class="p-2 text-black">25-30 june</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-2 "><img src="" alt=""></div>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="container-fluid "> 
+            <div class="d-flex flex-row mb-3 justify-content-between ">
+                <div class="p-2"><h5>Ends In</h5></div>
+                <div class="d-flex flex-row bg-black">
+                    <div style="color: orange;" class="p-2">02:04:56</div>
+                </div>
+            </div>
+        </div> -->
+        <div id="product_cont">
+            <div class="container-fluid d-flex flex-row " id="productDiv">
+                <div class=" rounded-4 " style="background-color: rgb(255, 222, 228); width: 40%;">
+                    <div class="p-4" id="img"> <img  src="img/pngwing.com.png" alt="" style="height: 150px; width: 120px;"></div>
+                </div>
+                <div class="p-2 w-75">
+                    <div class="d-flex flex-column" style="gap:70px">
+                        <div id="title">
+                            <!-- <h5 id="title">Hoodie Vert Rose</h5> -->
+                        </div>
+                        <div>
+                            <div ><strike>$100.00</strike></div>
+                            <div class="d-flex flex-row justify-content-between ">
+                                <div id="price" style="color: orange;">$59.00</div>
+                                <div>
+                                    <form action="">
+                                        <button class="btn bg-black text-white rounded-4 "><svg
+                                                xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z" />
+                                            </svg>Buy</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid pt-3 d-flex flex-row " id="productDiv">
+                <div class=" rounded-4 " style="background-color: rgb(253, 253, 188); width: 40%;">
+                    <div class="p-4"> <img src="img/pngwing.com.png" alt="" style="height: 150px; width: 120px;"></div>
+                </div>
+                <div class="p-2 w-75">
+                    <div class="d-flex flex-column" style="gap:70px">
+                        <div id="title">
+                            <!-- <h5>Hoodie Vert Rose</h5> -->
+                        </div>
+                        <div>
+                            <div><strike>$100.00</strike></div>
+                            <div class="d-flex flex-row justify-content-between ">
+                                <div style="color: orange;">$59.00</div>
+                                <div>
+                                    <form action="">
+                                        <button class="btn bg-black text-white rounded-4 "><svg
+                                                xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z" />
+                                            </svg>Buy</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid pt-3 d-flex flex-row " id="productDiv">
+                <div class=" rounded-4 " style="background-color: rgb(248, 248, 248); width: 40%;">
+                    <div class="p-4" id="img"> <img src="img/pngwing.com.png" alt="" style="height: 150px; width: 120px;"></div>
+                </div>
+                <div class="p-2 w-75">
+                    <div class="d-flex flex-column" style="gap:70px">
+                        <div id="title">
+                            <!-- <h5>Hoodie Vert Rose</h5> -->
+                        </div>
+                        <div>
+                            <div><strike>$100.00</strike></div>
+                            <div class="d-flex flex-row justify-content-between ">
+                                <div style="color: orange;">$59.00</div>
+                                <div>
+                                    <form action="">
+                                        <button class="btn bg-black text-white rounded-4 "><svg
+                                                xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z" />
+                                            </svg>Buy</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="product.js"></script>
+</body>
+
+</html>
